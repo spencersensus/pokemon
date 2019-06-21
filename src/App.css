@@ -18,11 +18,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+img{
+ height:350px;
+}
+.baseExperience{
+  border-top:solid;
+}
+.pokemonCard{
+  height:500px;
+  text-align: center;
+}
+.pokemonName{
+  display:inline-block;
+}
+.headerInfo{
 
+}
+.pokemonType{
+  font-size: 10px;
+  display: inline-block;
+  float:right;
+}
 .App-link {
   color: #61dafb;
 }
-
+.paginationButtons{
+  margin-left:46%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

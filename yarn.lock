@@ -1095,6 +1095,76 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@pcty/button@^6.1.1":
+  version "6.1.6"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/button/-/@pcty/button-6.1.6.tgz#f9f54f0c8418085d261fee341950509eb0ad7579"
+  integrity sha1-+fVPDIQYCF0mH+40GVBQnrCtdXk=
+  dependencies:
+    "@pcty/vars" "^2.2.2"
+
+"@pcty/card@^2.0.0-premajor.0":
+  version "2.0.0"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/card/-/@pcty/card-2.0.0.tgz#e7a7381bfca2ebadf4914040570249ccb2c11a31"
+  integrity sha1-56c4G/yi6630kUBAVwJJzLLBGjE=
+  dependencies:
+    "@pcty/vars" "^2.2.2"
+
+"@pcty/content-header@^3.0.2":
+  version "3.0.2"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/content-header/-/@pcty/content-header-3.0.2.tgz#3a845eb3b1ab8ffe80cb5962de5b782b5e49ae83"
+  integrity sha1-OoRes7Grj/6Ay1li3lt4K15JroM=
+
+"@pcty/icons@^2.0.0-premajor.0":
+  version "2.0.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/icons/-/@pcty/icons-2.0.1.tgz#2a7b06be5c3550d0f3584ee3f6c1744d7ecfe0c0"
+  integrity sha1-KnsGvlw1UNDzWE7j9sF0TX7P4MA=
+  dependencies:
+    "@pcty/vars" "^2.2.2"
+    shelljs "^0.8.3"
+
+"@pcty/loader@^2.0.0-premajor.1":
+  version "2.0.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/loader/-/@pcty/loader-2.0.1.tgz#ccdac70d32fdaf935b82e5ee8d5a8d5c138bd1a9"
+  integrity sha1-zNrHDTL9r5NbguXujVqNXBOL0ak=
+  dependencies:
+    "@pcty/vars" "^2.2.2"
+
+"@pcty/react-button@^6.0.5":
+  version "6.0.5"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/react-button/-/@pcty/react-button-6.0.5.tgz#cbbc162279b839666b32168b80eae4f0d17e65c6"
+  integrity sha1-y7wWInm4OWZrMhaLgOrk8NF+ZcY=
+  dependencies:
+    "@pcty/button" "^6.1.1"
+    "@pcty/loader" "^2.0.0-premajor.1"
+    "@pcty/react-icon" "^1.1.1-MOD776.0"
+
+"@pcty/react-card@^1.1.1":
+  version "1.1.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/react-card/-/@pcty/react-card-1.1.1.tgz#4be87acd59357a4658a02c7da346c5ad29edfcdb"
+  integrity sha1-S+h6zVk1ekZYoCx9o0bFrSnt/Ns=
+  dependencies:
+    "@pcty/card" "^2.0.0-premajor.0"
+
+"@pcty/react-icon@^1.1.1-MOD776.0":
+  version "1.1.3"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/react-icon/-/@pcty/react-icon-1.1.3.tgz#5e121d60f3715535d4dd1b111d349e6658d72a79"
+  integrity sha1-XhIdYPNxVTXU3RsRHTSeZljXKnk=
+  dependencies:
+    "@pcty/icons" "^2.0.0-premajor.0"
+    "@pcty/utils-object" "^1.0.2"
+
+"@pcty/utils-object@^1.0.2":
+  version "1.0.2"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/utils-object/-/@pcty/utils-object-1.0.2.tgz#6e77058bf2b529f5391bb297c6e889ffa40865e6"
+  integrity sha1-bncFi/K1KfU5G7KXxuiJ/6QIZeY=
+
+"@pcty/vars@^2.2.2":
+  version "2.6.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/@pcty/vars/-/@pcty/vars-2.6.1.tgz#6d42372f97a29eb4067ccb147f9f37982689fa11"
+  integrity sha1-bUI3L5einrQGfMsUf583mCaJ+hE=
+  dependencies:
+    bluebird "^3.5.2"
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
@@ -1538,6 +1608,13 @@ address@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/address/-/address-1.1.0.tgz#ef8e047847fcd2c5b6f50c16965f924fd99fe709"
   integrity sha512-4diPfzWbLEIElVG4AnqP+00SULlPzNuyJFNnmMrLgyaxG6tZXJ1sn7mjBu4fHrJE+Yp/jgylOweJn2xsLMFggQ==
+
+ajax@0.0.4:
+  version "0.0.4"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/ajax/-/ajax-0.0.4.tgz#b6f4ce8bd590f5f4ba2dcfde11de789f209f2423"
+  integrity sha1-tvTOi9WQ9fS6Lc/eEd54nyCfJCM=
+  dependencies:
+    underscore ""
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -2021,6 +2098,11 @@ binary-extensions@^1.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.1.tgz#598afe54755b2868a5330d2aff9d4ebb53209b65"
   integrity sha512-Un7MIEDdUC5gNpcGDV97op1Ywk748MpHcFTHoYs6qnj1Z3j7I53VG3nwZhKzoBZmbdRNnb6WRdFlwl7tSDuZGw==
 
+bluebird@^3.5.2:
+  version "3.5.5"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
+  integrity sha1-qNCv1zJR7/u9X+OEp31zADwXpx8=
+
 bluebird@^3.5.3:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.4.tgz#d6cc661595de30d5b3af5fcedd3c0b3ef6ec5714"
@@ -2063,6 +2145,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^4.3.1:
+  version "4.3.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha1-KAyo9hBQTZnXtrS/xLaM7GAXBKw=
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -4201,7 +4288,7 @@ glob-to-regexp@^0.3.0:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
   integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
-glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
+glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   integrity sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A==
@@ -4749,6 +4836,11 @@ internal-ip@^4.2.0:
   dependencies:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
+
+interpret@^1.0.0:
+  version "1.2.0"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
+  integrity sha1-1QYaYiS+WOgIOYX1AU2EQ1lXYpY=
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -5496,6 +5588,11 @@ jest@24.7.1:
   dependencies:
     import-local "^2.0.0"
     jest-cli "^24.7.1"
+
+jquery@^3.4.1:
+  version "3.4.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha1-cU8fjZ3eS9+lV2S6N+8hRjDYDvI=
 
 js-levenshtein@^1.1.3:
   version "1.1.6"
@@ -7846,7 +7943,7 @@ react-dev-utils@^9.0.1:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha1-cdYwP2MeiwCX9WFl72CPBR/24Q8=
@@ -7926,7 +8023,7 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@16.8.6:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha1-rWw6lhT9Ok6e9REX9U2IjaAfK74=
@@ -8007,6 +8104,13 @@ realpath-native@^1.1.0:
   integrity sha512-wlgPA6cCIIg9gKz0fgAPjnzh4yR/LnXovwuo9hvyGvx3h8nX4+/iLZplfUWasXpqD8BdnGnP5njOFjkUwPzvjA==
   dependencies:
     util.promisify "^1.0.0"
+
+rechoir@^0.6.2:
+  version "0.6.2"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/rechoir/-/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
+  integrity sha1-hSBLVNuoLVdC4oyWdW70OvUOM4Q=
+  dependencies:
+    resolve "^1.1.6"
 
 recursive-readdir@2.2.2:
   version "2.2.2"
@@ -8234,6 +8338,13 @@ resolve@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.10.0.tgz#3bdaaeaf45cc07f375656dfd2e54ed0810b101ba"
   integrity sha512-3sUr9aq5OfSg2S9pNtPA9hL1FVEAjvfOC4leW0SNf/mpnaakz2a9femSd6LqAww2RaFctwyf1lCqnTHuF1rxDg==
+  dependencies:
+    path-parse "^1.0.6"
+
+resolve@^1.1.6:
+  version "1.11.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/resolve/-/resolve-1.11.1.tgz#ea10d8110376982fef578df8fc30b9ac30a07a3e"
+  integrity sha1-6hDYEQN2mC/vV434/DC5rDCgej4=
   dependencies:
     path-parse "^1.0.6"
 
@@ -8538,6 +8649,15 @@ shell-quote@1.6.1:
     array-map "~0.0.0"
     array-reduce "~0.0.0"
     jsonify "~0.0.0"
+
+shelljs@^0.8.3:
+  version "0.8.3"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/shelljs/-/shelljs-0.8.3.tgz#a7f3319520ebf09ee81275b2368adb286659b097"
+  integrity sha1-p/MxlSDr8J7oEnWyNorbKGZZsJc=
+  dependencies:
+    glob "^7.0.0"
+    interpret "^1.0.0"
+    rechoir "^0.6.2"
 
 shellwords@^0.1.1:
   version "0.1.1"
@@ -9234,6 +9354,11 @@ uglify-js@^3.1.4:
   dependencies:
     commander "~2.20.0"
     source-map "~0.6.1"
+
+underscore@:
+  version "1.9.1"
+  resolved "https://artifact.paylocity.com/artifactory/api/npm/npm/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
+  integrity sha1-BtzjSg5op7q8KbNluOdLiSUgOWE=
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"

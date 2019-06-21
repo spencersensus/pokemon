@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@pcty/content-header": "^3.0.2",
+    "@pcty/react-button": "^6.0.5",
+    "@pcty/react-card": "^1.1.1",
+    "ajax": "0.0.4",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
